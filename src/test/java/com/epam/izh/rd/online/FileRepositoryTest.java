@@ -20,11 +20,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FileRepositoryTest {
 
-  private static final String TEST_DIR_COUNT_PATH = "testDirCountFiles";
+  private static final String TEST_DIR_COUNT_PATH = "src/main/resources/testDirCountFiles";
   private static final String TEST_DIR_CREATE_PATH = "testDirCreateFile";
   private static final String TEST_FILE_TO_CREATE = "newFile.txt";
-  private static final String SOURCE_FILE = "fileRepository/source/TestFileToCopy.txt";
-  private static final String COPY_FILE = "fileRepository/copy/TestFileToCopy.txt";
+  private static final String SOURCE_FILE = "fileRepository/source";
+  private static final String COPY_FILE = "fileRepository/copy";
 
   private static FileRepository fileRepository;
 
